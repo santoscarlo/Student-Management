@@ -1,0 +1,76 @@
+body {
+  
+  background:url('../img/background.jpg') no-repeat center center fixed; 
+  width: 100%;
+    height: 400px;
+ background-size: 100% 100%;
+}
+
+form {
+
+	width: 45% px;
+	margin: 50px auto;
+	text-align: left;
+	padding: 20px;
+	border: 1px solid #bbbbbb;
+	border-radius: 5px;
+}
+
+.dataTables_filter {
+text-align: right !important;
+}
+
+
+	ul.pagination {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+  
+}
+
+
+.searchfield
+{
+
+     display:inline;
+     margin:0px;
+     padding:0px;
+}
+
+/* FOR HEADER META CHUCHU */
+#featured-content .flex-viewport {
+max-height: 2000px;
+-webkit-transition: all 1s ease;
+-moz-transition: all 1s ease;
+transition: all 1s ease;
+}
+#featured-content .loading .flex-viewport { max-height: 300px; }
+
+.img_pic {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+}
+
+.img_pic:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+
+
+
+.text {
+  margin-right: 150px;
+  font-size: 22px;
+  text-align: center;
+font-weight: bold;
+}
+
+
+.text2 {
+    font-weight: bold;
+    font-size: 15px;
+    text-align: right;
+
+}

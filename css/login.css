@@ -1,0 +1,62 @@
+body {
+  
+  background:url('../img/background.jpg') no-repeat center center fixed; 
+  width: 100%;
+  height: 400px;
+ background-size: 100% 100%;
+ font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+ }
+
+
+.wrapper {  
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.form-signin {
+  max-width: 380px;
+  padding: 15px 35px 45px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  border: 1px solid rgba(0,0,0,0.1);
+  
+
+
+  .form-control {
+    position: relative;
+    font-size: 16px;
+    height: auto;
+    padding: 10px;
+    @include box-sizing(border-box);
+
+    &:focus {
+      z-index: 2;
+    }
+  }
+
+  input[type="text"] {
+    margin-bottom: -1px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+ 
+  }
+
+  input[type="password"] {
+    margin-bottom: 20px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+
+}
+
+.navbar-header {
+ font-color: black;
+}
+
+/* FOR HEADER META CHUCHU */
+#featured-content .flex-viewport {
+max-height: 2000px;
+-webkit-transition: all 1s ease;
+-moz-transition: all 1s ease;
+transition: all 1s ease;
+}
+#featured-content .loading .flex-viewport { max-height: 300px; }

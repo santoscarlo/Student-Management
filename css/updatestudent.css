@@ -1,0 +1,55 @@
+  
+.container {
+
+}
+
+
+.one {
+    background-color:#ffffff;
+    margin-left: 65px;
+    width: 40%;
+    border: 3px solid #d6d4d4;
+    padding: 10px;
+}
+
+.two {
+    
+    background-color:#ffffff;
+    margin-left: 580px;
+    margin-top: -284px;
+
+    width: 40%;
+    border: 3px solid #d6d4d4;
+    padding: 10px;
+ 
+}
+
+
+
+.three {
+
+    margin-top: 50px;
+    background-color:#ffffff;
+     margin-left: 65px;
+    width: 40%;
+    border: 3px solid #d6d4d4;
+    padding: 10px;
+}
+
+
+.four {
+
+     background-color:#ffffff;
+   margin-left: 580px;
+    margin-top: -284px;
+
+    width: 40%;
+    border: 3px solid #d6d4d4;
+    padding: 10px;
+
+}
+
+legend {
+    text-align: center;
+}
+
